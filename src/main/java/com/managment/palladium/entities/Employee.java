@@ -1,31 +1,27 @@
 package com.managment.palladium.entities;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Employee {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "employee_seq")
+    @SequenceGenerator(name="employee_seq",sequenceName="employee_seq", allocationSize = 1)
     private long employeeId;
 
     private String firstname;
     private String lastname;
     private String email;
-    private String role;
 
     public Employee() {
     }
 
-    public Employee(String firstname, String lastname, String email, String role) {
+    public Employee(String firstname, String lastname, String email) {
         super();
         this.firstname = firstname;
         this.lastname = lastname;
         this.email = email;
-        this.role = role;
     }
 
     public long getEmployeeId() {
@@ -60,11 +56,4 @@ public class Employee {
         this.email = email;
     }
 
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
-    }
 }
