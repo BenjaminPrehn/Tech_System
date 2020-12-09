@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y openjdk-8-jdk
 
 WORKDIR /usr/local/bin/
 
-ADD target/tech-app.jar .
+ADD tech-app.jar .
 
 # CMD ["/bin/bash"]
 
