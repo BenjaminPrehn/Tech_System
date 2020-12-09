@@ -1,6 +1,0 @@
-com/managment/palladium/PalladiumApplication.class
-com/managment/palladium/dao/EmployeeRepository.class
-com/managment/palladium/controllers/HomeController.class
-com/managment/palladium/controllers/EmployeeController.class
-com/managment/palladium/entities/Employee.class
-com/managment/palladium/services/EmployeeService.class
