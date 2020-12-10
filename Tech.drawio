@@ -1,4 +1,4 @@
-<mxfile modified="2020-12-10T09:59:16.526Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="6AQXlDL9wsVkxwENKNDa" version="14.0.0" type="github">
+<mxfile modified="2020-12-10T10:04:25.161Z" host="app.diagrams.net" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="1DNHRNDbZGekq3B4FNi1" version="14.0.0" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1186" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -29,8 +29,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="PJEIytIsIEoIStejatP--6" value="EC2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="88.25" y="570" width="40" height="20" as="geometry" />
+        <mxCell id="PJEIytIsIEoIStejatP--6" value="EC2 - Jenkins server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="43.25" y="570" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="PJEIytIsIEoIStejatP--7" value="Jenkins" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="560" width="60" height="20" as="geometry" />
@@ -58,6 +58,70 @@
             <mxPoint x="300" y="460" as="sourcePoint" />
             <mxPoint x="290" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="473.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--16" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/brush-set-free/512/BRoom_Stick_2-128.png" vertex="1" parent="1">
+          <mxGeometry x="450" y="477" width="73" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--17" value="Jenkins - Clean package" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="411.5" y="563" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--18" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=none;endFill=1;strokeColor=#545B64;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="350" y="516" as="sourcePoint" />
+            <mxPoint x="443.5" y="516.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="423.5" y="516.5" />
+              <mxPoint x="423.5" y="516.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=none;endFill=1;strokeColor=#545B64;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="523" y="516" as="sourcePoint" />
+            <mxPoint x="616.5" y="516.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="596.5" y="516.5" />
+              <mxPoint x="596.5" y="516.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--20" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/software-engineering-and-video-gaming/512/611_Code_coding_compile_files_list-128.png" vertex="1" parent="1">
+          <mxGeometry x="620" y="480" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--21" value="Jenkins Compiling program" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="563" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--22" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Docker.svg;" vertex="1" parent="1">
+          <mxGeometry x="810" y="486.5" width="81.71" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=none;endFill=1;strokeColor=#545B64;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="700" y="516" as="sourcePoint" />
+            <mxPoint x="793.5" y="516.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="773.5" y="516.5" />
+              <mxPoint x="773.5" y="516.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--24" value="Auto deploy trough With docker" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="760.86" y="563" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--25" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;elbow=vertical;startArrow=none;endFill=1;strokeColor=#545B64;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="910" y="516" as="sourcePoint" />
+            <mxPoint x="1003.5" y="516.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="983.5" y="516.5" />
+              <mxPoint x="983.5" y="516.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJEIytIsIEoIStejatP--26" value="EC2 - Deployment server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="983.25" y="570" width="150" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
