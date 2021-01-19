@@ -27,4 +27,10 @@ public class EmployeeService {
         empRepo.delete(theEmp);
     }
 
+    public Employee findByFirstname(String username){ return empRepo.findByFirstname(username);}
+
+    public void deleteById(long theId){
+        empRepo.deleteById(theId);
+    }
+
 }
