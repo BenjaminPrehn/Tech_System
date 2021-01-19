@@ -1,4 +1,4 @@
-package com.managment.palladium.controllers;
+package com.managment.palladium;
 
 import static org.junit.Assert.assertEquals;
 
