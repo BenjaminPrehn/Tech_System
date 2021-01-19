@@ -31,6 +31,6 @@ public class HttpRequestTest {
     @Test
     public void homePageReturnsVersionNumberCorrectly_thenSuccess() {
         String renderedHtml = this.restTemplate.getForObject("http://localhost:" + port + "/", String.class);
-        assertEquals(renderedHtml.contains("3.3.2"), true);
+        assertEquals(renderedHtml.contains("3.3.3"), true);
     }
 }
