@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 
 @SpringBootTest
-public class EmployeeRepositoryTests {
+public class EmployeeServiceTests {
 
     @Autowired
     EmployeeService empService;
@@ -27,18 +27,6 @@ public class EmployeeRepositoryTests {
         assertEquals(employee2.getFirstname(),employee.getFirstname());
         assertEquals(employee2.getLastname(),employee.getLastname());
 
-    }
-
-    @Test
-    public void testGetEmployee(){
-
-        Employee employee = new Employee("Emil","Emil","emil@email.com");
-        empService.save(employee);
-        Employee employee2 = empService.findByFirstname("Emil");
-
-        assertNotNull(employee);
-        assertEquals(employee2.getFirstname(),employee.getFirstname());
-        assertEquals(employee2.getLastname(),employee.getLastname());
     }
 
     @Test
