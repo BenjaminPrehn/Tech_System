@@ -10,8 +10,4 @@ class PalladiumApplicationTests {
     void contextLoads() {
     }
 
-    @Test
-    void contextLoadssss() {
-    }
-
 }

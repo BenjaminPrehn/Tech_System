@@ -10,4 +10,6 @@ public interface EmployeeRepository extends PagingAndSortingRepository<Employee,
 
     public Employee findByEmployeeId(long theId);
 
+    public Employee findByFirstname(String username);
+
 }
