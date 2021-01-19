@@ -5,14 +5,12 @@ import static org.junit.Assert.assertNotNull;
 
 import com.managment.palladium.dao.EmployeeRepository;
 import com.managment.palladium.entities.Employee;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.boot.test.context.SpringBootTest;
 
-@RunWith(SpringRunner.class)
-@DataJpaTest
+
+@SpringBootTest
 public class EmployeeRepositoryTests {
 
     @Autowired
