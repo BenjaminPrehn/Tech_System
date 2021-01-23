@@ -13,6 +13,12 @@ public class HomeController {
     @Value("${version}")
     private String ver;
 
+    @Value("${environment}")
+    private String env;
+
+    @Value("${database}")
+    private String database;
+
     @Autowired
     EmployeeService empService;
 
@@ -20,6 +26,8 @@ public class HomeController {
     public String displayHome(Model model){
 
         model.addAttribute("versionNumber", ver);
+        model.addAttribute("environment", env);
+        model.addAttribute("database", database);
 
         return "index";
     }
