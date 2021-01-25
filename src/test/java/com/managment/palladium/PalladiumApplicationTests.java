@@ -10,9 +10,7 @@ class PalladiumApplicationTests {
 
     @Test
     void contextLoads() {
-        String var = "hej";
 
-        assertEquals("hello",var);
     }
 
 
