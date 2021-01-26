@@ -19,7 +19,7 @@ public class EmployeeServiceTests {
     @Test
     public void testSaveEmployee(){
 
-        Employee employee = new Employee("Emil","Emil","emil@email.com");
+        Employee employee = new Employee("Emil","Emilsen","emil@email.com");
         empService.save(employee);
         Employee employee2 = empService.findByFirstname("Emil");
 
