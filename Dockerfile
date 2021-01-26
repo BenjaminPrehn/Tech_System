@@ -4,7 +4,9 @@ MAINTAINER DAB "dab@dab.com"
 
 RUN apt-get update && apt-get install -y openjdk-8-jdk
 
-ENV version=aws-db-usage
+ENV version=1.0
+ENV environment=Production
+ENV database=Postgres-aws-db-usage
 
 ENV dbuser=postgres
 ENV dbpass=Vedikke09!
