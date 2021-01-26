@@ -24,7 +24,7 @@ public class EmployeeServiceTests {
         Employee employee2 = empService.findByFirstname("Emil");
 
         assertNotNull(employee);
-        assertEquals(employee2.getFirstname(),employee.getFirstname());
+        assertEquals(employee2.getFirstname(),employee.getLastname());
         assertEquals(employee2.getLastname(),employee.getLastname());
 
     }
